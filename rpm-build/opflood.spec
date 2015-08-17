@@ -5,8 +5,8 @@ Summary: The script contains a minimum set of customers for PostgreSQL and Oracl
 
 Group: Server Support
 License: MIT
-Vendor: Voskhod
-Packager: Dmitriy Bulynenkov <d.bulynenkov@voskhod.ru>
+Vendor: Home
+Packager: Dmitriy Bulynenkov <yxryab@gmail.com>
 
 BuildArch: noarch
 BuildRequires: python
@@ -36,5 +36,5 @@ tar zxvf %SOURCE1 -C %buildroot/opt/opflood/archive
 ln -f /opt/opflood/opflood.py /usr/bin/opflood
 
 %changelog
-* Fri Aug 14 2015 Dmitriy Bulynenkov <d.bulynenkov@voskhod.ru>
+* Fri Aug 14 2015 Dmitriy Bulynenkov <yxryab@gmail.com>
 - Initial RPM release
